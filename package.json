@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "5.3.0",
     "langchain": "^0.0.149",
     "prisma": "^5.3.0"
   }
