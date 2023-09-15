@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "vectorize": "ts-node --esm ./vectorize.mts",
+    "start": "ts-node --esm ./search.mts"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,10 @@
     "@prisma/client": "5.3.0",
     "langchain": "^0.0.149",
     "prisma": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.15",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
